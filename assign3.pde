@@ -91,7 +91,7 @@ void draw() {
         case FIRST_WAVE:
           for(int enemyNumber = 0; enemyNumber < 5; enemyNumber++){
             pushMatrix();
-            translate(-70*enemyNumber,0);
+            translate(-65*enemyNumber,0);
             image(enemy,enemyX,enemyY);
             popMatrix();
           }
@@ -106,7 +106,7 @@ void draw() {
         case SECOND_WAVE:
           for(int enemyNumber = 0; enemyNumber < 5; enemyNumber++){
             pushMatrix();
-            translate(-70*enemyNumber,65*enemyNumber);
+            translate(-65*enemyNumber,65*enemyNumber);
             image(enemy,enemyX,enemyY);
             popMatrix();
           }
@@ -122,7 +122,7 @@ void draw() {
         case THIRD_WAVE:
           for(int enemyNumber = 0; enemyNumber < 5; enemyNumber++){
             pushMatrix();
-            translate(-70*enemyNumber,0);
+            translate(-65*enemyNumber,0);
             if(enemyNumber == 0 || enemyNumber == 4)
               translate(0,140);
             if(enemyNumber == 1 || enemyNumber == 3)
@@ -132,7 +132,7 @@ void draw() {
           }
           for(int enemyNumber = 0; enemyNumber < 5; enemyNumber++){
             pushMatrix();
-            translate(-70*enemyNumber,70*4);
+            translate(-65*enemyNumber,70*4);
             if(enemyNumber == 0 || enemyNumber == 4)
               translate(0,-140);
             if(enemyNumber == 1 || enemyNumber == 3)
