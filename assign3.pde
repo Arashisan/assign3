@@ -99,7 +99,7 @@ void draw() {
             enemyX +=5 ;
           else{
             enemyX = -61;
-            enemyY = floor(random(0,140));
+            enemyY = floor(random(0,159));
             enemyWave = SECOND_WAVE;
           }
           break;
@@ -115,7 +115,7 @@ void draw() {
           }
           else{
             enemyX = -61;
-            enemyY = floor(random(0,159));
+            enemyY = floor(random(0,139));
             enemyWave = THIRD_WAVE;
           }
           break;
